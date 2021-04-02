@@ -92,6 +92,9 @@ namespace _03.P_rates
         
         private static Dictionary<string, City> ReadCity()
         {
+           
+         Dictionary<string, City> citys = new Dictionary<string, City>();
+            
          while (true)
             {
                 string line = Console.ReadLine();
